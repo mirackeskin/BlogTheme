@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Global Properties*/
+html{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif !important;
+    
+}
+
+body{
+    background: #181818;
+    color: whitesmoke;/*TÜM YAZI RENKLLERİ*/
+}
+a{
+    text-decoration: none; 
+    color: whitesmoke;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+    transform: scale(1.1);
+}
+
+/*Navbar Section*/
+#header{
+    
+    box-shadow: 0px 0px 5px 1px gray;
+}
+#navbar{
+    background: #181818 !important;
+    font-family: 'Montserrat', sans-serif !important; 
+    /*display: flex;*/
+    
+}
+#site-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbarSupportedContent{
+    
+    display: flex !important ;
+    justify-content: flex-end !important;
+}
+#navbar #navbarSupportedContent .nav-item:hover .nav-link{
+    color: orange ;
+}
+#navbar #navbarSupportedContent .dropdown-color{
+    background: #181818;
+}
+#navbar #navbarSupportedContent .dropdown-color .dropdown-item{
+    color: gray;
+}
+#navbar #navbarSupportedContent .dropdown-color .dropdown-item:hover{
+    color: #181818;
+    
+}
+
+/*Main Section*/
+#main-row{
+    margin-top: 1rem;
+}
+#card-wrapper{
+    box-shadow: 0px 0px 6px 1px gray;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+#card-wrapper .card-head img{
+    width: 100%;
+    height: 10rem;
+}
+#card-wrapper .card-head{
+    border:4px solid orange;
+}
+
+/*Sidebar Section*/
+#sidebar-column{
+    
+    padding: 0px !important;
+}
+#sidebar{
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#sidebar .search-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#sidebar .search-wrapper input{
+    width: 100%;
+    border-radius: 1rem;
+    border:2px solid orange;
+}
+#sidebar .search-wrapper input:focus{
+    border:2px solid red;
+}
+#sidebar .search-wrapper button{
+    border-radius: 1rem;
+}
+#sidebar .social-media-wrapper{
+    width: 100%;
+    margin-top: 1rem;
+}
+#sidebar .social-media-wrapper ul{
+    display: flex;
+    justify-content: space-evenly
+}
+#sidebar .social-media-wrapper ul li{
+    list-style-type: none;
+    font-size: 3rem;
+    color: white;    
+}
+#sidebar .social-media-wrapper ul li a .fa-facebook{
+    color: whitesmoke;
+}
+#sidebar .social-media-wrapper ul li a .fa-instagram{
+    color: rgb(206, 1, 86);
+}
+#sidebar .social-media-wrapper ul li a .fa-youtube{
+    color: rgb(190, 1, 1);
+}
+#sidebar .social-media-wrapper ul li a .fa-twitter{
+    color: royalblue;
+}
+
+#sidebar .last-shared{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+#sidebar .last-shared .shared-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke; 
+    padding: 1rem;
+}
+#sidebar .last-shared .shared-card img{
+    width: 6rem;
+    border-radius: 2rem;
+    border: 2px solid orange;
+}
+
+#sidebar .highlights{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+#sidebar .highlights .highlight-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke; 
+    padding: 1rem;
+}
+#sidebar .highlights .highlight-card img{
+    width: 6rem;
+    border-radius: 2rem;
+    border: 2px solid red;
+}
+
+/*Footer Section*/
+
+#footer{
+    margin-top: 2rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0px 0px 5px 1px gray;
+    background: #222121;
+}
+#footer .footer-box-1{
+    padding-left: 1rem;
+    height: 100%;
+}
+#footer .footer-box-1 .footer-box-content{
+    margin-top: 1rem;
+}
+#footer .footer-box-2{
+    padding-left: 1rem;
+    height: 100%;
+}
+#footer .footer-box-2 .writer-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .footer-box-2 .writer-box .writer-image{
+    width: 8rem;
+}
+#footer .footer-box-2 .writer-box .writer-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4rem;
+}
+
+#footer .footer-box-3{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 100%;
+}
+#footer .footer-box-3 .footer-form .form-group{
+    width: 100%;
+}
+#footer .footer-box-3 .footer-form .form-group input,textarea{
+    width: 100%;
+}
+
+#footer .footer-box-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 100%;
+}
+
+
+

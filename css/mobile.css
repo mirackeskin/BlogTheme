@@ -1,0 +1,13 @@
+#navbar #navbarSupportedContent .nav-item{
+    border-bottom: 1px solid rgba(71, 69, 69, 0.5);
+}
+
+/*Main Section*/
+#card-wrapper{
+    margin-top: 1rem;
+}
+
+/*Sidebar Section*/
+#sidebar-column #sidebar{
+    padding-top: 2rem !important;
+}
